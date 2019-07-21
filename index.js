@@ -49,7 +49,7 @@ passport.deserializeUser((obj, done) => {
 
 let OpskinsAuth = new opAuth.init({
 	name: 'Testing',
-	returnURL: 'http://localhost:3037/auth/opskins/authenticate',
+	returnURL: 'https://waxtetris.herokuapp.com/auth/opskins/authenticate',
 	apiKey: 'cc60159b3b45c34496959edecafab9',
 	scopes: 'identity',
 	mobile: true
